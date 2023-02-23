@@ -1,15 +1,15 @@
 # Site settings
-title: Jekyll Doc Theme
+title: Blueberry Hill Farm Puppies
 email: your-email@domain.com
 description: >
   Jekyll Template for Project Websites
   providing documentation and blog post pages.
 lang: en-US
 
-baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+baseurl: "/bhfpups" # the subpath of your site, e.g. /blog/
+url: https://mwvine67.github.io/bhfpups # the base hostname & protocol for your site
+git_address: https://github.com/mwvine67/bhfpups
+git_edit_address: https://github.com/mwvine67/bhfpups/blob/gh-pages
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap

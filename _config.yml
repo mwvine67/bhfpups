@@ -2,8 +2,8 @@
 title: Blueberry Hill Farm Puppies
 email: your-email@domain.com
 description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
+  Blueberry Hill Farm Puppies
+  Miniature poodles from Maine
 lang: en-US
 
 baseurl: "/bhfpups/" # the subpath of your site, e.g. /blog/
@@ -32,7 +32,7 @@ exclude:
   - .gitignore
   - README.md
   - vendor
-timezone: Europe/Berlin
+timezone: America/New_York
 defaults:
 - scope:
     path: _posts

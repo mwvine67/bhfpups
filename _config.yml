@@ -6,7 +6,7 @@ description: >
   Miniature poodles from Maine
 lang: en-US
 
-baseurl: "/bhfpups/" # the subpath of your site, e.g. /blog/
+baseurl: "/bhfpups" # the subpath of your site, e.g. /blog/
 url: https://mwvine67.github.io/bhfpups # the base hostname & protocol for your site
 git_address: https://github.com/mwvine67/bhfpups
 git_edit_address: https://github.com/mwvine67/bhfpups/blob/gh-pages

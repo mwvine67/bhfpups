@@ -1,0 +1,25 @@
+---
+title: Test
+layout: default
+
+carousels:
+  - images: 
+    - image: /assets/slider/image1.jpg
+    - image: /assets/slider/image2.jpg
+    - image: /assets/slider/image3.jpg
+    - image: /assets/slider/image4.jpg
+---
+
+
+<h1 id=test_title>Testing Carousels</h1>
+
+<p>Testing how carousels work.  Carousel should follow this text:</p>
+
+#Testing Carousels
+
+Testing how carousels work.  Carousel should follow this text:
+
+    {% include carousel.html height="200" unit="px" duration="7" number="1" %}
+
+<p>Still testing how carousels work.  Carousel should preceed this text.</p>
+

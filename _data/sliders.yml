@@ -1,28 +1,18 @@
 - selector: slider1
   bullets: false
-  captions: true
+  captions: false
   images:
-    - src: /img/1.jpg
-      alt: Minimum required attributes
-    - data-src: /img/2.jpg
-      alt: Use data-src for on-demand loading
-    - data-src: /img/3.jpg
-      data-src-2x: /img/3@2x.jpg
-      alt: Use data-src-2x for HiDPI devices
-    - src: /img/4.jpg
-      alt: Links work too
-      href: https://github.com/jekylltools/jekyll-ideal-image-slider-include
+    - src: /assets/slider/image1.jpg
+      alt: pups 1
+    - src: /assets/slider/image2.jpg
+      alt: pups 2
+    - src: /assets/slider/image3.jpg
+      alt: pups 3
+    - src: /assets/slider/image4.jpg
+      alt: pups 4
   settings:
-    height: 400
-    initialHeight:
-    maxHeight:
-    interval:
-    transitionDuration:
-    effect:
-    disableNav:
-    keyboardNav:
-    previousNavSelector:
-    nextNavSelector:
+    height: "'auto'"
+    disableNav: true
 
 - selector: slider2
   bullets: true
@@ -42,6 +32,14 @@
   settings:
     height: "'auto'"
     effect: "'fade'"
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
 
 - selector: slider3
   images:

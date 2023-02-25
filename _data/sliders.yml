@@ -11,8 +11,8 @@
     - src: /assets/slider/image4.jpg
       alt: pups 4
   settings:
-    height: 200
-    disableNav: true
+    height: "'auto'"
+    disableNav: false
 
 - selector: slider2
   bullets: true

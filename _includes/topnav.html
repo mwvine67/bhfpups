@@ -18,11 +18,12 @@
 <!--                <li {% if page.sectionid=='Test_md' %} class="active" {% endif %}><a href="{{ "/Test_md.html" | relative_url }}">Test_md</a></li> -->
 <!--                <li {% if page.sectionid=='Test_html' %} class="active" {% endif %}><a href="{{ "/Test.html" | relative_url }}">Test_html</a></li> -->
                 <li {% if page.sectionid=='about' %} class="active" {% endif %}> <a href="{{ "/about.html" | relative_url }}">About</a></li>
-                <li {% if page.sectionid=='about' %} class="dropdown" {% endif %}> <a href="{{ "/about.html" | relative_url }} aria-haspopup="true"">About</a>
-                  <div class="dropdown-content"> 
-                    <a href="{{ "/index.html" | relative_url }}">Home</a> 
-                    <a href="{{ "/about.html" | relative_url }}">About Us</a> 
-                  </div>
+                <li {% if page.sectionid=='about' %} class="dropdown" {% endif %}> <a href="{{ "/about.html" | relative_url }}">About</a>
+<!--                  <div class="dropdown-content"> -->
+                  <ul class="dropdown-menu"> 
+                    <li><a href="{{ "/index.html" | relative_url }}">Home</a> </li>
+                    <li><a href="{{ "/about.html" | relative_url }}">About Us</a> </li>
+                  </ul>
                 </li>
     
       

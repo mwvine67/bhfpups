@@ -19,8 +19,10 @@
 <!--                <li {% if page.sectionid=='Test_html' %} class="active" {% endif %}><a href="{{ "/Test.html" | relative_url }}">Test_html</a></li> -->
                 <li {% if page.sectionid=='about' %} class="active" {% endif %}> <a href="{{ "/about.html" | relative_url }}">About</a></li>
                 <li {% if page.sectionid=='about' %} class="dropdown" {% endif %}> <a href="{{ "/about.html" | relative_url }}">About</a>
-                  <div class="dropdown-content"> a href="{{ "/index.html" | relative_url }}">Home</a> </div>
-                  <div class="dropdown-content"> a href="{{ "/about.html" | relative_url }}">About Us</a> </div>
+                  <div class="dropdown-content"> 
+                    <a href="{{ "/index.html" | relative_url }}">Home</a> 
+                    <a href="{{ "/about.html" | relative_url }}">About Us</a> 
+                  </div>
                 </li>
     
       

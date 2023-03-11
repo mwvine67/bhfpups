@@ -1,5 +1,10 @@
 ---
+title: Home
 layout: default
+
+image_sliders:
+  - slider1
+
 ---
 
 <!--
@@ -18,7 +23,7 @@ layout: default
 -->
 <div class="container">
   <div style="text-align:center">
-    <img src="{{ "/assets/img/Primary-RGB-250.png" | relative_url }}" alt="BHF logo" class="responsive center">
+    <img src="{{ "/assets/img/Primary-RGB-200.png" | relative_url }}" alt="BHF logo" class="responsive center">
   </div>
 </div>
 
@@ -34,19 +39,29 @@ layout: default
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6 text-center">
-            <img src="{{ "/assets/img/202212-pups-piglet-300x400.jpg" | relative_url }}" alt="Puppy Pile" class="responsive center">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-4 text-center">
+<!--            <img src="{{ "/assets/img/202212-pups-piglet-300x400.jpg" | relative_url }}" alt="Puppy Pile" class="responsive center">   -->
+              {% include slider.html selector="slider1" %}
+        </div>
+        <div class="col-sm-1">
         </div>
         <div class="col-md-6">
-            <h2 class="header-light regular-pad">About Our Pups</h2>
+            <h2 class="header-light regular-pad">Raising Miniature Poodles in Mid-Coast Maine</h2>
               <p class="lead">
-                Our pups are purebread miniature poodles.  
-                Poodles are know for their curly, hypoallergenic coat.
-                They are affectionate and intelligent and are excellent companions.
-                They are also good with young children and make great family dogs.
+                Our pups are purebread and AKC miniature poodles.  
+                They are a lovely variety of colors including cream, red, apricot, and chocolate.
+                Poodles are known for their soft, curly, and hypo-allergenic coat.
+                They are affectionate, intelligent, and make excellent companions.
+                Because they are so social and love all ages, they make great family dogs.
               </p>
         </div>
     </div>
+
+  <br>
+  
+<!--
     <hr>
     <div class="row">
         <div class="col-sm-4">
@@ -69,4 +84,5 @@ layout: default
               maintaining your documentation along with the source code; publish the page when you merge to the master branch.</p>
         </div>
     </div>
+-->
 </div>

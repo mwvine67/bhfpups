@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include head.html %}
+
+<body>
+
+    {% include topnav.html %}
+
+    {% include toplogo.html %}
+
+    {% include carousel.html height="50" unit="%" duration="7" number="1" %}
+
+    <div class="page-content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+    {% include js_files.html %}
+</body>
+
+</html>

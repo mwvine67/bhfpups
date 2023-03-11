@@ -1,0 +1,56 @@
+- selector: slider1
+  bullets: false
+  captions: false
+  images:
+    - src: /assets/slider/image1.jpg
+      alt: pups 1
+    - src: /assets/slider/image2.jpg
+      alt: pups 2
+    - src: /assets/slider/image3.jpg
+      alt: pups 3
+    - src: /assets/slider/image4.jpg
+      alt: pups 4
+  settings:
+    height: "400"
+    disableNav: false
+
+- selector: slider2
+  bullets: true
+  captions: true
+  images:
+    - src: /img/1.jpg
+      title: Balloons!
+      alt: This slider has caption titles
+    - data-src: /img/2.jpg
+      title: This slider uses the fade effect
+      alt: Instead of the default slide effect
+    - data-src: /img/3.jpg
+      data-src-2x: /img/3@2x.jpg
+    - src: /img/4.jpg
+      title: Last image had no caption!
+      alt: Also, this image has no link
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+
+- selector: slider3
+  images:
+    - src: /img/1.jpg
+      alt: image one
+    - src: /img/2.jpg
+      alt: image two
+    - src: /img/3.jpg
+      alt: image three
+    - src: /img/4.jpg
+      alt: image four
+  settings:
+    height: "'auto'"
+    disableNav: true
